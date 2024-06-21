@@ -49,10 +49,10 @@
                                             <ToggleButton
                                                 Margin="0,0,0,3"
                                                 HorizontalAlignment="Stretch"
+                                                Background="{DynamicResource ThemeBackgroundBrush}"
                                                 Command="{Binding SelectGroupRelayCommand}"
                                                 CommandParameter="{Binding $parent[UserControl].DataContext}"
                                                 Content="{Binding Header}"
-                                               
                                                 IsChecked="{Binding IsSelected}" />
                                         </DataTemplate>
                                     </ItemsControl.ItemTemplate>
